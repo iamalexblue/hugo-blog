@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://iamalexblue.github.io/sitemap.xml
