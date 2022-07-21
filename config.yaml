@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: 从今夜白
+  description: "你的气质里，藏着你读过的书、走过的路和爱过的人。"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Alex Blue
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -78,11 +78,11 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/iamalex_blue"
+    - name: Typefully
+      url: "https://typefully.com/iamalex_blue"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/iamalexblue"
 
   analytics:
     google:
@@ -122,9 +122,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: Status
+      name: Status
+      url: https://status.iamalex.blue/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
