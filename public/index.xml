@@ -9,16 +9,7 @@
       <link>https://iamalex.blue/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Jul 2022 14:53:53 +0000</lastBuildDate><atom:link href="https://iamalex.blue/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://iamalex.blue/posts/helloworld/</link>
-      <pubDate>Thu, 21 Jul 2022 14:53:53 +0000</pubDate>
-      
-      <guid>https://iamalex.blue/posts/helloworld/</guid>
-      <description>Hugo 中的第一篇博客</description>
-    </item>
+    <lastBuildDate>Sun, 20 Mar 2022 15:33:19 +0000</lastBuildDate><atom:link href="https://iamalex.blue/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Logseq 和数据安全、便利和隐私的思考</title>
@@ -81,6 +72,15 @@
       
       <guid>https://iamalex.blue/posts/markdownuili-ruhekksurumf/</guid>
       <description>这是一篇示例文章，测试 Markdown 展示效果。</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://iamalex.blue/posts/helloworld/</link>
+      <pubDate>Sun, 31 Oct 2021 14:53:53 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/helloworld/</guid>
+      <description>Hugo 中的第一篇博客</description>
     </item>
     
   </channel>
