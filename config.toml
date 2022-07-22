@@ -1,5 +1,5 @@
 baseURL = "https://iamalexblue.github.io/"
-title = "ExampleSite"
+title = "从今夜白"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -53,8 +53,8 @@ tocopen = false
 
   [params.profileMode]
   enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
+  title = "从今夜白"
+  subtitle = "你的气质里，藏着你读过的书、走过的路和爱过的人。"
   imageUrl = "<img location>"
   imageWidth = 120
   imageHeight = 120
