@@ -136,3 +136,24 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+params:
+    profileMode:
+        enabled: true
+        title: "<从今夜白>" # optional default will be site title
+        subtitle: "你的气质里，藏着你读过的书、走过的路和爱过的人。"
+        imageUrl: "<image link>" # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+            url: "/archive"
+            - name: Github
+            url: "https://github.com/iamalexblue/"
+
+    socialIcons: # optional
+        - name: "<Twitter>"
+            url: "<https://twitter.com/iamalex_blue>"
+        - name: "<Notion>"
+            url: "<https://iamalexblue.notion.site>"
