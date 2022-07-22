@@ -2,8 +2,8 @@
 title: Hello World!
 date: 2022-07-21T14:53:53.031Z
 draft: false
-lastmod: 2022-07-21T14:54:14.161Z
-slug: post
+lastmod: 2022-07-22T16:21:46.425Z
+slug: helloworld
 description: Hugo 中的第一篇博客
 ---
 

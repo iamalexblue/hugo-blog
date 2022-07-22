@@ -2,8 +2,8 @@
 title: 谈谈腾讯 - Talk about Tencent
 date: 2021-11-07T15:33:19.495Z
 draft: false
-lastmod: 2022-07-22T16:05:50.455Z
-slug: post
+lastmod: 2022-07-22T16:21:33.612Z
+slug: tjtjtgxy
 description: Hugo 中的第一篇博客
 ---
 

@@ -2,8 +2,8 @@
 title: Logseq 和数据安全、便利和隐私的思考
 date: 2022-03-20T15:33:19.495Z
 draft: false
-lastmod: 2022-07-22T16:06:36.620Z
-slug: post
+lastmod: 2022-07-22T16:22:09.832Z
+slug: logseqheuujuanqrbmliheyksidesikc
 description: 便利、安全和隐私其实是不可兼得，或者至少说是相对冲突的，孰轻孰重，需要数据拥有者自己衡量。
 ---
 
