@@ -10,6 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 21 Jul 2022 14:53:53 +0000</lastBuildDate><atom:link href="https://iamalex.blue/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Hello World!</title>
       <link>https://iamalex.blue/posts/post/</link>
@@ -17,6 +18,69 @@
       
       <guid>https://iamalex.blue/posts/post/</guid>
       <description>Hugo 中的第一篇博客</description>
+    </item>
+    
+    <item>
+      <title>Logseq 和数据安全、便利和隐私的思考</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Sun, 20 Mar 2022 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>便利、安全和隐私其实是不可兼得，或者至少说是相对冲突的，孰轻孰重，需要数据拥有者自己衡量。</description>
+    </item>
+    
+    <item>
+      <title>失语者 - 我们都是生活的孩子</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Thu, 27 Jan 2022 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>每个人的世界大小都不一样，但是再小的世界，也能装很多自己喜欢的东西。</description>
+    </item>
+    
+    <item>
+      <title>嘿，这里有一条好消息需要查收！</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Tue, 30 Nov 2021 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>在上一条推送中，我讲了未来会拾起微信公众号，也把它作为一个平台来运营，不管结果如何，至少会持续发一些内容在上面，所以，新推送马上就来了。</description>
+    </item>
+    
+    <item>
+      <title>关于毕业、工作和未来</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Wed, 17 Nov 2021 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>这里是 Alex Blue。本来在 **Todoist** 写了不少博客选题，但最近忙着弄课设大概率是没时间写了，本来这篇文章应该在15号的时候应该同步在微信公众号和博客上线，但是因为需要就博客的内容做一部分修改，所以就拖到了现在。想在这里写一点关于自己的近况，但说实话其实也没什么好写的。</description>
+    </item>
+    
+    <item>
+      <title>谈谈腾讯 - Talk about Tencent</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Sun, 07 Nov 2021 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>Hugo 中的第一篇博客</description>
+    </item>
+    
+    <item>
+      <title>你会推荐使用哪些浏览器扩展？</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Tue, 02 Nov 2021 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>问题其实来源于少数派的一个活动 [VOL.068 你会推荐使用哪些浏览器插件？]，那么你有哪些珍藏已久的优质浏览器扩展呢？</description>
+    </item>
+    
+    <item>
+      <title>Markdown 示例 - 如何快速入门 Markdown</title>
+      <link>https://iamalex.blue/posts/post/</link>
+      <pubDate>Mon, 01 Nov 2021 15:33:19 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/post/</guid>
+      <description>这是一篇示例文章，测试 Markdown 展示效果。</description>
     </item>
     
   </channel>

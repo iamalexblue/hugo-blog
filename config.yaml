@@ -39,7 +39,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -122,10 +122,18 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: Music
+      name: Music
+      url: https://music.iamalex.blue/
+      weight: 30
+    - identifier: Drive
+      name: Drive
+      url: https://Share.iamalex.blue/
+      weight: 40
     - identifier: Status
       name: Status
       url: https://status.iamalex.blue/
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -136,4 +144,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
