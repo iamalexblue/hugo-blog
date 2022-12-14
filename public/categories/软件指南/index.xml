@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>软件指南 on 从今夜白</title>
+    <link>https://iamalex.blue/categories/%E8%BD%AF%E4%BB%B6%E6%8C%87%E5%8D%97/</link>
+    <description>Recent content in 软件指南 on 从今夜白</description>
+    <image>
+      <url>https://iamalex.blue/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://iamalex.blue/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 12 Nov 2022 17:56:20 +0000</lastBuildDate><atom:link href="https://iamalex.blue/categories/%E8%BD%AF%E4%BB%B6%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>两个 OneDrive 账号间文件迁移指北</title>
+      <link>https://iamalex.blue/posts/%E4%B8%A4%E4%B8%AA-onedrive-%E8%B4%A6%E5%8F%B7%E9%97%B4%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8C%97/</link>
+      <pubDate>Sat, 12 Nov 2022 17:56:20 +0000</pubDate>
+      
+      <guid>https://iamalex.blue/posts/%E4%B8%A4%E4%B8%AA-onedrive-%E8%B4%A6%E5%8F%B7%E9%97%B4%E6%96%87%E4%BB%B6%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8C%97/</guid>
+      <description>OneDrive 文件迁移指北</description>
+    </item>
+    
+  </channel>
+</rss>
