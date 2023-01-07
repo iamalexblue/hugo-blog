@@ -74,14 +74,14 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi，Alex there \U0001F44B"
-    Content: Welcome to my blog
+    Content: 好好生活.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/iamalex_blue"
+    - name: Twitter
+      url: "https://twitter.com/realexblue"
     - name: Typefully
       url: "https://typefully.com/iamalex_blue"
-    - name: github
+    - name: GitHub
       url: "https://github.com/iamalexblue"
 
   analytics:
@@ -114,12 +114,12 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
+    - identifier: Categories
+      name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: Tags
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: Notion
