@@ -2,5 +2,5 @@
     "eslint.alwaysShowStatus": false,
     "[markdown]": {
     },
-    "typewriterScrollMode.enable": false
+    "typewriterScrollMode.enable": true
 }

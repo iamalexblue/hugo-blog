@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://iamalex.blue/sitemap.xml
