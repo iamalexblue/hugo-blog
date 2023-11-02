@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>从今夜白</title>
-    <link>https://iamalex.blue/</link>
-    <description>Recent content on 从今夜白</description>
-    <image>
-      <title>从今夜白</title>
-      <url>https://iamalex.blue/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://iamalex.blue/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://iamalex.blue/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search</title>
+      <link>/search/</link>
+      <pubDate>Fri, 22 Jul 2022 15:45:56 +0000</pubDate>
+      <guid>/search/</guid>
+      <description>search</description>
+    </item>
   </channel>
 </rss>
