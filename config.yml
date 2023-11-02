@@ -133,3 +133,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+
+ignoreErrors: ["error-remote-getjson"]  #yml or ignoreErrors = ["error-remote-getjson"] #toml 
