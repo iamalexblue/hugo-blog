@@ -30,10 +30,10 @@ theme = "paper"
 
   # giscus
 [params.giscus]
-  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
-  repoId = 'YOUR_GISCUS_REPO_ID'
-  category = 'YOUR__GISCUS_CATEGORY'
-  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
-  mapping = 'pathname'
+  repo = 'iamalexblue'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOHsfhCw'
+  category = 'General'
+  categoryId = 'DIC_kwDOHsfhC84Cas6X'
+  mapping = 'title'
   theme = 'light'
   lang = 'zh-CN'
