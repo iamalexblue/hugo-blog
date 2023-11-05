@@ -1,4 +1,4 @@
-disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+disqusShortname = ''   # use disqus comments
 
 theme = "paper"
 
