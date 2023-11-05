@@ -69,7 +69,10 @@
       "path": "[[workspace]]/content/posts"
     },
     {
+      "title": "posts",
       "path": "[[workspace]]/content/posts"
     }
-  ]
+  ],
+  "frontMatter.website.host": "https://iamalex.blue",
+  "frontMatter.preview.host": "http://localhost:1313"
 }

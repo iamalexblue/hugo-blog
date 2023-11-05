@@ -15,7 +15,7 @@ theme = "paper"
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'https://github.com/iamalexblue/jsDelivrCDN/blob/master/static/iamalex.blue-cover.new.jpeg'                 # gravatar email or image url
+  avatar = '/assets/iamalex.blue-cover.new.jpeg'                 # gravatar email or image url
   name = '从今夜白'
   bio = '你的气质里，藏着你读过的书、走过的路和爱过的人。'
 
