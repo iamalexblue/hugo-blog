@@ -1,5 +1,5 @@
 <h1 align="center">
-  从今夜白 - Alex Blue's Blog  
+  从今夜白 - Blue wonderland
 </h1>
 
 <h2 align="center">
