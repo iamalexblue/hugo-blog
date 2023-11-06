@@ -15,7 +15,7 @@ theme = "paper"
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'https://github.com/iamalexblue/jsDelivrCDN/blob/master/static/iamalexblue-cover.svg'                 # gravatar email or image url
+  avatar = 'therealalexblue@gmail.com'                 # gravatar email or image url
   name = '从今夜白'
   bio = '你的气质里，藏着你读过的书、走过的路和爱过的人。'
 
@@ -24,7 +24,7 @@ theme = "paper"
   disableHLJS = true                        # disable highlight.js
   disablePostNavigation = true              # disable post navigation
   monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   graphCommentId = ""                       # use graph comment (disqus alternative)
   math = true                               # enable KaTeX math typesetting globally
 
@@ -35,5 +35,5 @@ theme = "paper"
   category = 'Announcements'
   categoryId = 'DIC_kwDOHsfhC84Cas6X'
   mapping = 'pathname'
-  theme = 'light'
+  theme = ''
   lang = 'zh-CN'
