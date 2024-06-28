@@ -1,0 +1,491 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>如何为域名邮箱设置 BIMI 企业 Logo？ - </title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="如何为域名邮箱设置 BIMI 企业 Logo？ BIMI（Brand Indicator for Message Identification）让您的域名邮箱个性鲜明，通过在发出的邮件中添加企业Logo，加强真实性和信誉度。本文将引导您如何实现这一功能。
+在数字化时代，电子邮件是企业与客户交流的重要渠道。为展示品牌形象，提升邮件识别度，一种名为BIMI的技术为域名邮箱带来了新的变革。BIMI，品牌信息识别标示，它允许您在邮件中嵌入企业Logo。这不仅可以增强企业邮件的视觉识别度，还能提升收件人的信任感。
+一、前提准备 启动BIMI之前，请确保您的域名拥有DMARC设置，这是邮件身份验证与策略报告的基础，保护您的邮箱免受伪造发件人地址的影响。
+二、步骤详解 设置DMARC记录：确保所有相关SPF和DKIM记录已经设置完毕。 上传Logo：选择SVG格式，遵循安全性、文件大小（推荐不超过32KB）和中心图形等要求。 三、重要细节 按照 Google 对SVG Logo 的要求，其需要重点注意： SVG必须是SVG Tiny Portable/Secure版本。 文件背景应为纯色，透明背景可能不显示正确。 Logo应为正方形，图形居中。 除了 BIMI 标准要求之外，Gmail 还需遵守 Gmail 对 BIMI SVG 文件的以下要求： 图片大小必须至少为 96 像素高和 96 像素宽。 图片大小必须以绝对像素指定。示例：width=”96” height=”96” 请勿使用相对尺寸来指定图片尺寸。示例：width=”100%” height=”100%” 除了满足这些要求以外，我们还针对 SVG 文件与 Gmail 的兼容性提供了以下建议： 徽标图片应位于正方形的中心。 徽标图片应显示在纯色背景中。透明背景可能无法按预期显示。 SVG 文件大小不应超过 32 KB。 SVG 文件应包含 元素（说明）以提供无障碍功能。 处理完成之后的 .svg 文件链接格式应当如下所示：
+https://raw.githubusercontent.com/iamalexblue/fluoxetine12_pic_repo/master/Resources/Email_BIMI_Logo.svg 四、商标注册与VMC认证 如果您希望在Gmail等平台上展示Logo认证，您需要注册商标并获得VMC认证。
+五、添加DNS解析记录 设置特定的DNS &lsquo;TXT&rsquo;记录，指向您的Logo文件和可选的VMC认证地址。
+v=BIMI1;l=https://raw.githubusercontent.com/iamalexblue/fluoxetine12_pic_repo/master/Resources/Email_BIMI_Logo.svg 六、结尾： 通过BIMI，您的电子邮件将更加个性化和专业，吸引收件人关注的同时，强化品牌形象。这些简单的步骤将引领您进入电子邮件识别的新时代。" />
+  <meta name="author" content="从今夜白" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="//localhost:1313/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="//localhost:1313/theme.svg" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://cdn.v2ex.com/gravatar/b23914e5bf848bf4bf96b0a12525bd61?s=160&amp;d=identicon" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="//localhost:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="//localhost:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="//localhost:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="//localhost:1313/linkedin.svg" />
+  
+  <link rel="preload" as="image" href="//localhost:1313/mastodon.svg" />
+  
+  <link rel="preload" as="image" href="//localhost:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () =>
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+          ],
+          
+          throwOnError : false
+        })
+    );
+</script>
+
+  
+  
+  
+
+  
+  <link rel="icon" href="//localhost:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.127.0">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="//localhost:1313/"
+      ></a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/realexblue"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/iamalexblue"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/iamalexblue"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/csjbyebd"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./mastodon.svg)"
+        href="https://mastodon.social/@realexblue"
+        target="_blank"
+        rel="me"
+      >
+        mastodon
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="//localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">如何为域名邮箱设置 BIMI 企业 Logo？</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Jun 28, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="如何为域名邮箱设置-bimi-企业-logo">如何为域名邮箱设置 BIMI 企业 Logo？</h1>
+<blockquote>
+<p>BIMI（Brand Indicator for Message Identification）让您的域名邮箱个性鲜明，通过在发出的邮件中添加企业Logo，加强真实性和信誉度。本文将引导您如何实现这一功能。</p>
+</blockquote>
+<p>在数字化时代，电子邮件是企业与客户交流的重要渠道。为展示品牌形象，提升邮件识别度，一种名为BIMI的技术为域名邮箱带来了新的变革。BIMI，品牌信息识别标示，它允许您在邮件中嵌入企业Logo。这不仅可以增强企业邮件的视觉识别度，还能提升收件人的信任感。</p>
+<h3 id="一前提准备">一、前提准备</h3>
+<p>启动BIMI之前，请确保您的域名拥有DMARC设置，这是邮件身份验证与策略报告的基础，保护您的邮箱免受伪造发件人地址的影响。</p>
+<h3 id="二步骤详解">二、步骤详解</h3>
+<ol>
+<li><strong>设置DMARC记录</strong>：确保所有相关SPF和DKIM记录已经设置完毕。</li>
+<li><strong>上传Logo</strong>：选择SVG格式，遵循安全性、文件大小（推荐不超过32KB）和中心图形等要求。</li>
+</ol>
+<h3 id="三重要细节">三、重要细节</h3>
+<ol>
+<li><strong>按照 Google 对SVG Logo 的要求，其需要重点注意：</strong></li>
+</ol>
+<ul>
+<li>SVG必须是SVG Tiny Portable/Secure版本。</li>
+<li>文件背景应为纯色，透明背景可能不显示正确。</li>
+<li>Logo应为正方形，图形居中。</li>
+</ul>
+<ol start="2">
+<li><strong>除了 BIMI 标准要求之外，Gmail 还需遵守 Gmail 对 BIMI SVG 文件的以下要求：</strong></li>
+</ol>
+<ul>
+<li>图片大小必须至少为 96 像素高和 96 像素宽。</li>
+<li>图片大小必须以绝对像素指定。示例：width=”96” height=”96”</li>
+<li>请勿使用相对尺寸来指定图片尺寸。示例：width=”100%” height=”100%”</li>
+</ul>
+<ol start="3">
+<li><strong>除了满足这些要求以外，我们还针对 SVG 文件与 Gmail 的兼容性提供了以下建议：</strong></li>
+</ol>
+<ul>
+<li>徽标图片应位于正方形的中心。</li>
+<li>徽标图片应显示在纯色背景中。透明背景可能无法按预期显示。</li>
+<li>SVG 文件大小不应超过 32 KB。</li>
+<li>SVG 文件应包含 <!-- raw HTML omitted --> 元素（说明）以提供无障碍功能。</li>
+</ul>
+<p>处理完成之后的 <code>.svg</code> 文件链接格式应当如下所示：</p>
+<pre tabindex="0"><code>https://raw.githubusercontent.com/iamalexblue/fluoxetine12_pic_repo/master/Resources/Email_BIMI_Logo.svg
+</code></pre><p><img src="https://raw.githubusercontent.com/iamalexblue/fluoxetine12_pic_repo/master/Resources/Email_BIMI_Logo.svg" alt="Email_BIMI_Logo"></p>
+<h3 id="四商标注册与vmc认证">四、商标注册与VMC认证</h3>
+<p>如果您希望在Gmail等平台上展示Logo认证，您需要注册商标并获得VMC认证。</p>
+<h3 id="五添加dns解析记录">五、添加DNS解析记录</h3>
+<p>设置特定的DNS &lsquo;TXT&rsquo;记录，指向您的Logo文件和可选的VMC认证地址。</p>
+<pre tabindex="0"><code>v=BIMI1;l=https://raw.githubusercontent.com/iamalexblue/fluoxetine12_pic_repo/master/Resources/Email_BIMI_Logo.svg
+</code></pre><h3 id="六结尾">六、结尾：</h3>
+<p>通过BIMI，您的电子邮件将更加个性化和专业，吸引收件人关注的同时，强化品牌形象。这些简单的步骤将引领您进入电子邮件识别的新时代。</p>
+<blockquote>
+<p>References:</p>
+</blockquote>
+<ul>
+<li><a href="https://support.google.com/a/answer/10911320?hl=zh-Hans&amp;sjid=15642333964812356936-AP">使用 BIMI 在电子邮件中添加品牌徽标</a></li>
+<li><a href="https://www.gworg.com/problems/1504.html">为 BIMI 做好准备：准备您的徽标</a></li>
+<li><a href="https://www.httpsmail.com/bimi.html"> BIMI - 为域名邮箱的邮件添加企业 LOGO </a></li>
+<li><a href="https://support.google.com/a/answer/10911321?hl=zh-Hans">在域名提供商处添加 BIMI TXT 记录</a></li>
+</ul>
+<h3 id="版权信息">版权信息：</h3>
+<blockquote>
+<p>本文由本站原创，如需转载，请注明出处或联系作者获得授权。</p>
+</blockquote>
+</section>
+
+  
+  
+  <footer class="mt-12 flex flex-wrap">
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="//localhost:1313/tags/bimi"
+      >BIMI</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="//localhost:1313/tags/google"
+      >Google</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="//localhost:1313/tags/%E9%82%AE%E7%AE%B1"
+      >邮箱</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="//localhost:1313/tags/%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1"
+      >域名邮箱</a
+    >
+    
+  </footer>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <div class="giscus mt-24"></div>
+    <script src="https://giscus.app/client.js"
+          data-repo="iamalexblue/iamalexblue.github.io"
+          data-repo-id="R_kgDOHsfhCw"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOHsfhC84Cas6W"
+          data-mapping="pathname"
+          data-strict="1"
+          data-reactions-enabled="0"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="preferred_color_scheme"
+          data-lang="zh-CN"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+    </script>
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="//localhost:1313/"></a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
